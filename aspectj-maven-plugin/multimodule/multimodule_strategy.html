@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="Date-Revision-yyyymmdd" content="20150911" />
     <meta http-equiv="Content-Language" content="en" />
-    <title>Mojo's AspectJ Maven Plugin - AspectJ in a multi-module reactor</title>
+    <title>Mojo's AspectJ Maven Plugin &#x2013; AspectJ in a multi-module reactor</title>
     <link rel="stylesheet" href="../css/apache-maven-fluido-1.4.min.css" />
     <link rel="stylesheet" href="../css/site.css" />
     <link rel="stylesheet" href="../css/print.css" media="print" />
@@ -38,8 +38,8 @@
         <div class="container-fluid">
           <div id="banner">
         <div class="pull-left">
-                                    <a href="http://www.mojohaus.org/" id="bannerLeft">
-                                                                                        <img src="http://www.mojohaus.org/images/mojo_logo.png"  alt="MojoHaus"/>
+                                                  <a href="../../../" id="bannerLeft">
+                                                                                                <img src="../../../images/mojo_logo.png"  alt="MojoHaus"/>
                 </a>
                       </div>
         <div class="pull-right">  </div>
@@ -51,12 +51,12 @@
                 
                     
                               <li class="">
-                    <a href="http://www.mojohaus.org/" class="externalLink" title="MojoHaus">
+                    <a href="../../../" title="MojoHaus">
         MojoHaus</a>
                     <span class="divider">/</span>
       </li>
             <li class="">
-                    <a href="http://www.mojohaus.org/mojo-parent" class="externalLink" title="MojoHaus Parent">
+                    <a href="../../../mojo-parent" title="MojoHaus Parent">
         MojoHaus Parent</a>
                     <span class="divider">/</span>
       </li>
@@ -199,7 +199,7 @@
         AJC experimental options</a>
             </li>
                               <li class="nav-header">Project Documentation</li>
-                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                        
       <li>
   
                           <a href="../project-info.html" title="Project Information">
@@ -241,7 +241,7 @@
         <div id="bodyColumn"  class="span10" >
                                   
             <div class="section">
-<h2>Strategies for using AspectJ in a Maven multi-module reactor<a name="Strategies_for_using_AspectJ_in_a_Maven_multi-module_reactor"></a></h2>
+<h2><a name="Strategies_for_using_AspectJ_in_a_Maven_multi-module_reactor"></a>Strategies for using AspectJ in a Maven multi-module reactor</h2>
 <p>In a multi-module reactor, a convenient pattern for using AspectJ is to create one project containing Aspect definitions to be used by (&quot;woven into&quot;) the code of other projects within the Maven reactor. Since some dependencies (such as the AspectJ runtime) must be identical in all of the projects within the Maven reactor, this walkthrough serves as a step-by-step guide to painless use of aspects in a multi-module reactor.</p>
 <p>To make this walkthrough less abstract, we will use Validation as an example throughout the step-by-step guide. In this example, we will create a small API for validating the internal state of objects, and delegate its correct use to AspectJ by means of the AspectJ Maven Plugin. There are many ways besides AspectJ to perform this, but AspectJ is one of the few which does not depend on particular surroundings such as containers or application servers. In fact, the small Validation solution may be run directly in a plain Java SE environment. All steps will be detailed in the walkthrough below, but we will start by taking a look at the end result:</p><img src="../images/plantuml/multimodule_ajc.png" alt="Resulting reactor" />
 <p>The reactor contains the following parts:</p>
@@ -253,7 +253,7 @@
 <li><b>mavenProjectWithAspects</b>: A project whose classes can use/implement types from the validation-api to indicate that the aspect defined in <tt>validation-aspect</tt> project should be woven into its bytecode representation.
 <p>After the introduction, let us proceed to the step-by-step guide.</p></li></ul>
 <div class="section">
-<h3>1. Define required runtime dependency versions<a name="a1._Define_required_runtime_dependency_versions"></a></h3>
+<h3><a name="a1._Define_required_runtime_dependency_versions"></a>1. Define required runtime dependency versions</h3>
 <p>In the rootParentPom, define dependencies for the AspectJ runtime and your library holding aspects. It is recommended to introduce a Maven property in order to reduce the number of locations where the AspectJ version must be changed to upgrade the dependency.</p>
 <div class="source"><pre class="prettyprint">      &lt;!-- +========================================= --&gt;
       &lt;!-- | Maven property definitions               --&gt;
@@ -290,7 +290,7 @@
 </pre></div>
 <p>The definitions in the rootParentPOM are now complete.</p></div>
 <div class="section">
-<h3>2. Implement the Validation-API<a name="a2._Implement_the_Validation-API"></a></h3>
+<h3><a name="a2._Implement_the_Validation-API"></a>2. Implement the Validation-API</h3>
 <p>For the purpose of this example, we would like AspectJ to enforce a common behaviour/lifecycle for objects whose internal state can be validated. The Validation-API contains a defining interface, <tt>Validatable</tt>, which should be implemented by any class whose objects should be validated after being created. The Validatable interface is shown below:</p>
 <div class="source"><pre class="prettyprint">/**
  * Specification for providing an object with Validation mechanics.
@@ -335,7 +335,7 @@ public class InternalStateValidationException extends IllegalStateException {
 }</pre></div>
 <p>Assuming that the rootParentPOM contains common build definitions which should be applied to the validation-api project, we should remember to assign the rootParentPOM as its parent. In this brief example, we explore no reason to connect the validation-api to a parent - but in real life configurations such as licensing, coverage, code style, etc. are frequently configured and maintained only in one POM - the rootParentPOM.</p></div>
 <div class="section">
-<h3>3. Implement the Aspect performing validation<a name="a3._Implement_the_Aspect_performing_validation"></a></h3>
+<h3><a name="a3._Implement_the_Aspect_performing_validation"></a>3. Implement the Aspect performing validation</h3>
 <p>Now that our tiny Validation API is complete, it is time to implement its corresponding Aspect. This is done in the <tt>validation-aspect</tt> project, which must import the validation-api as a dependency in its POM. It is also important that the validation-aspect project assigns its POM parent to rootParentPOM, since we want to use the AspectJ definitions from the parent. The POM bits of the validation-aspect project are shown below:</p>
 <div class="source"><pre class="prettyprint">    &lt;!-- +========================================= --&gt;
     &lt;!-- | Define the Parent POM                    --&gt;
@@ -499,7 +499,7 @@ public class ValidationAspect {
     }
 }</pre></div></div>
 <div class="section">
-<h3>4. Include Aspects into aspectParentPOM<a name="a4._Include_Aspects_into_aspectParentPOM"></a></h3>
+<h3><a name="a4._Include_Aspects_into_aspectParentPOM"></a>4. Include Aspects into aspectParentPOM</h3>
 <p>The last piece of the AspectJ plugin puzzle is the inclusion of our validation-aspect into the standard build cycle, which is performed within the aspectParentPOM project. The aspectParentPOM must therefore include a dependency on the <tt>validation-aspect</tt> project, and use the rootParentPOM for parent.</p>
 <div class="source"><pre class="prettyprint">    &lt;!-- +========================================= --&gt;
     &lt;!-- | Define the Parent POM                    --&gt;

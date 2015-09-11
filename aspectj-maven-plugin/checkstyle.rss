@@ -20,19 +20,19 @@ under the License.
 <rss version="0.91">
   <channel>
     <title>Mojo's AspectJ Maven Plugin - Checkstyle report</title>
-    <link>http://mojo.codehaus.org/aspectj-maven-plugin</link>
+    <link>http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin</link>
     <description>Mojo's AspectJ Maven Plugin - Checkstyle report</description>
     <language>en-us</language>
     <copyright>&#169;2005 - 2015 MojoHaus</copyright>
     <item>
       <title>File: 16,
-             Errors: 1992,
-             Warnings: 0,
-             Infos: 0
+             Errors: 777,
+             Warnings: 85,
+             Infos: 3
       </title>
-            <link>http://mojo.codehaus.org/aspectj-maven-plugin/checkstyle.html</link>
+            <link>http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html</link>
       <description>
-        <p>Click <a href="http://mojo.codehaus.org/aspectj-maven-plugin/checkstyle.html">here</a> for the full Checkstyle report.</p>
+        <p>Click <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html">here</a> for the full Checkstyle report.</p>
 
         <table summary="Files" boder="1">
           <thead>
@@ -46,7 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="http://mojo.codehaus.org/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.CompilationFailedException.java">org/codehaus/mojo/aspectj/CompilationFailedException.java</a>
+                  <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.CompilationFailedException.java">org/codehaus/mojo/aspectj/CompilationFailedException.java</a>
                 </td>
                 <td>
                   0
@@ -55,12 +55,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  6
+                  25
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://mojo.codehaus.org/aspectj-maven-plugin/checkstyle.html#aspectj-report_nl.properties">aspectj-report_nl.properties</a>
+                  <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html#aspectj-report_nl.properties">aspectj-report_nl.properties</a>
                 </td>
                 <td>
                   0
@@ -69,43 +69,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  1
+                  0
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://mojo.codehaus.org/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.AjcTestCompileMojo.java">org/codehaus/mojo/aspectj/AjcTestCompileMojo.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  60
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://mojo.codehaus.org/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.HelpMojo.java">org/codehaus/mojo/aspectj/HelpMojo.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  488
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://mojo.codehaus.org/aspectj-maven-plugin/checkstyle.html#aspectj-report.properties">aspectj-report.properties</a>
-                </td>
-                <td>
-                  0
+                  <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.AjcTestCompileMojo.java">org/codehaus/mojo/aspectj/AjcTestCompileMojo.java</a>
                 </td>
                 <td>
                   0
@@ -113,122 +82,13 @@ under the License.
                 <td>
                   2
                 </td>
-              </tr>
-                          <tr>
                 <td>
-                  <a href="http://mojo.codehaus.org/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.MavenMessageHandler.java">org/codehaus/mojo/aspectj/MavenMessageHandler.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  34
+                  6
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://mojo.codehaus.org/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.AjcCompileMojo.java">org/codehaus/mojo/aspectj/AjcCompileMojo.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  44
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://mojo.codehaus.org/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.EclipseAjcMojo.java">org/codehaus/mojo/aspectj/EclipseAjcMojo.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  302
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://mojo.codehaus.org/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.AbstractAjcMojo.java">org/codehaus/mojo/aspectj/AbstractAjcMojo.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  55
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://mojo.codehaus.org/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.Module.java">org/codehaus/mojo/aspectj/Module.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  48
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://mojo.codehaus.org/aspectj-maven-plugin/checkstyle.html#aspectj-report_en.properties">aspectj-report_en.properties</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  3
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://mojo.codehaus.org/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.AjcHelper.java">org/codehaus/mojo/aspectj/AjcHelper.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  300
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://mojo.codehaus.org/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.AjcReportMojo.java">org/codehaus/mojo/aspectj/AjcReportMojo.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  319
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://mojo.codehaus.org/aspectj-maven-plugin/checkstyle.html#aspectj-report_sv.properties">aspectj-report_sv.properties</a>
+                  <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.HelpMojo.java">org/codehaus/mojo/aspectj/HelpMojo.java</a>
                 </td>
                 <td>
                   0
@@ -242,7 +102,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://mojo.codehaus.org/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.Source.java">org/codehaus/mojo/aspectj/Source.java</a>
+                  <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html#aspectj-report.properties">aspectj-report.properties</a>
                 </td>
                 <td>
                   0
@@ -251,12 +111,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  6
+                  0
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://mojo.codehaus.org/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.AbstractAjcCompiler.java">org/codehaus/mojo/aspectj/AbstractAjcCompiler.java</a>
+                  <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.MavenMessageHandler.java">org/codehaus/mojo/aspectj/MavenMessageHandler.java</a>
                 </td>
                 <td>
                   0
@@ -265,7 +125,147 @@ under the License.
                   0
                 </td>
                 <td>
-                  323
+                  116
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.AjcCompileMojo.java">org/codehaus/mojo/aspectj/AjcCompileMojo.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+                <td>
+                  5
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.EclipseAjcMojo.java">org/codehaus/mojo/aspectj/EclipseAjcMojo.java</a>
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.AbstractAjcMojo.java">org/codehaus/mojo/aspectj/AbstractAjcMojo.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.Module.java">org/codehaus/mojo/aspectj/Module.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html#aspectj-report_en.properties">aspectj-report_en.properties</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.AjcHelper.java">org/codehaus/mojo/aspectj/AjcHelper.java</a>
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  17
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.AjcReportMojo.java">org/codehaus/mojo/aspectj/AjcReportMojo.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  24
+                </td>
+                <td>
+                  3
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html#aspectj-report_sv.properties">aspectj-report_sv.properties</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.Source.java">org/codehaus/mojo/aspectj/Source.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.AbstractAjcCompiler.java">org/codehaus/mojo/aspectj/AbstractAjcCompiler.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  37
+                </td>
+                <td>
+                  601
                 </td>
               </tr>
                       </tbody>
