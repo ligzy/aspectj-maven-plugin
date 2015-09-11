@@ -25,8 +25,8 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2005 - 2015 MojoHaus</copyright>
     <item>
-      <title>File: 16,
-             Errors: 777,
+      <title>File: 15,
+             Errors: 776,
              Warnings: 85,
              Infos: 3
       </title>
@@ -88,7 +88,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.HelpMojo.java">org/codehaus/mojo/aspectj/HelpMojo.java</a>
+                  <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.MavenMessageHandler.java">org/codehaus/mojo/aspectj/MavenMessageHandler.java</a>
                 </td>
                 <td>
                   0
@@ -97,7 +97,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  1
+                  116
                 </td>
               </tr>
                           <tr>
@@ -112,20 +112,6 @@ under the License.
                 </td>
                 <td>
                   0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.mojohaus.org/aspectj-maven-plugin/aspectj-maven-plugin/checkstyle.html#org.codehaus.mojo.aspectj.MavenMessageHandler.java">org/codehaus/mojo/aspectj/MavenMessageHandler.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  116
                 </td>
               </tr>
                           <tr>
